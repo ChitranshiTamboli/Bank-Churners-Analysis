@@ -3,10 +3,6 @@ This repository contains the SQL file for the Bank Churners Analysis Project, de
 
 OBJECTIVE:- The main objective of this project is to analyze customer data and identify the patterns that lead to churn, so the bank can take preventive action by reaching out to such customers proactively. 
             
-             To publish the findings on data analysis.
-
-             -To derive meaningful insights from the data, various business-impacting factors were analyzed.
-             -In this case study, there are 21 factors mentioning the age, salary, vintage, occupation, credit card limit, etc of 28,382 customers.
               
 #IMPORTANT FACTORS INFLUENCING CHURN :-
 Customer's Age --> Gender --> Occupation --> Number of Dependents --> Tenure with the Bank --> Net Worth Category --> Credit Utilization Behavior --> Last Transaction Activity
