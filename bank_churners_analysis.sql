@@ -1,30 +1,3 @@
-CREATE DATABASE bank_churn;
-USE bank_churn;
-
-CREATE TABLE customer_data (
-customer_id INT PRIMARY KEY,
-vintage INT,
-age INT,
-gender VARCHAR(10),
-dependents INT,
-occupation VARCHAR(50),
-city INT,
-customer_nw_category INT, 
-branch_code INT,
-current_balance FLOAT,
-previous_month_end_balance FLOAT,
-average_monthly_balance_prevQ FLOAT,
-average_monthly_balance_prevQ2 FLOAT,	
-current_month_credit FLOAT,
-previous_month_credit FLOAT,
-current_month_debit FLOAT,
-previous_month_debit FLOAT,
-current_month_balance FLOAT,
-previous_month_balance FLOAT,
-churn TINYINT,
-last_transaction DATE
-);
-
 /*Retrieving the data from the database*/
 SELECT * from customer_data;
 
